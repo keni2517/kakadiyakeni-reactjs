@@ -1,0 +1,16 @@
+.mainbox {
+    text-align: center;
+}
+h1{
+    background-color: blue;
+    text-decoration: double;
+    border: solid black;
+}
+h2{
+    background-color: brown;
+    text-decoration: underline;
+    border: solid blanchedalmond;
+}
+input[type="text"]{
+    background-color: blue;
+}
