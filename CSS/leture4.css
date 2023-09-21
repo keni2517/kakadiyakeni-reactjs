@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.margin-1{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    margin-bottom: 50px;
+    margin: 0px auto 20px;
+    padding: 50px;
+}
+.margin-2{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    margin-bottom: 50px;
+}
+.content-box{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    padding: 20px;
+    border: 10px solid black;
+    box-sizing: content-box;
+}
+.border-box{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    padding: 20px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+.box{
+    height: 500px;
+    min-height: 500px;
+    background-color: aqua;
+}
+ol{
+    list-style: none;
+    padding: 0px;
+}
+ul{
+    list-style-type: disc;
+}
+.shadow{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin: 100px;
+    box-shadow: 10px 20px 10px goldenrod;
+}

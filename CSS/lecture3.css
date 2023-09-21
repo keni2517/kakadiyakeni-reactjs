@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap);
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.font-family{
+    font-family: 'Roboto', sans-serif;
+}
+.font-size{
+    font-size: calc(5vw+5px);
+    font-style: italic;
+}
+.font-varient{
+    font-variant: small-caps;
+}
+.font-weight{
+    font-weight: 600;
+}
+.line-height{
+    line-height: 100px;
+}
+.text{
+    color: blueviolet;
+    text-align: justify;
+    text-decoration: double gray wavy;
+    text-transform: lowercase;
+    text-indent: 200px;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+.shadow{
+    font-size: 100px;
+    text-shadow: 20px 20px 8px goldenrod;
+}
+.align{
+    vertical-align: text-bottom;
+}
+.whitespace{
+    white-space: pre;
+}
+.p{
+    visibility: visible;
+}

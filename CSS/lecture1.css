@@ -8,3 +8,28 @@ p{
 .box-1{
  color: chartreuse;
 }
+.box-2{
+    color: aquamarine;
+}
+#box-1{
+    background-color: burlywood;
+}
+.demo-1 p{
+    background-color: red;
+}
+p+h1{
+    background-color: blue;
+}
+.option-1:link{
+
+    color: blueviolet;
+}
+a:active{
+    color: aqua;
+}
+a:hover{
+    color: brown;
+}
+.option-1:visited{
+    color: chartreuse;
+}
