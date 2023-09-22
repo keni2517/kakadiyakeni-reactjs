@@ -1,0 +1,21 @@
+body{
+    margin: 100px;
+}
+input[class=mainbox]{
+    accent-color:red;
+}
+::marker{
+    color: blueviolet;
+}
+input:focus{
+    background-color: green;
+}
+input:hover{
+    background-color: aquamarine;
+}
+input:invalid{
+    background-color: gold;
+}
+input:valid{
+    background-color: cadetblue;
+}
