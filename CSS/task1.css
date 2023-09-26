@@ -26,8 +26,6 @@ input[type="text"]{
 input:first-of-type{
     background-color: yellow;
 }
-
-
 a:first-child{
     background-color: yellow;
     color: red;
