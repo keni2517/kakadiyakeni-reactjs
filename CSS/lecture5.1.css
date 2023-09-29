@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto:ital,wght@1,700&display=swap');
+.pre{
+    background-color: aqua;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    height: 700px;
+    width: 800px;
+    background-color: yellowgreen;
+    display: flex;
+}
+.box-1{
+    background-color: yellow;
+}
+.box-2{
+    background-color: purple;
+}
+.box-3{
+    background-color: peru;
+}
+.box-4{
+    background-color: cadetblue;
+}
