@@ -10,15 +10,26 @@
     background-color: yellowgreen;
     display: flex;
 }
+.box div{
+    flex:3 50px;
+}
 .box-1{
+    height: 80px;
+    width: 80px;
     background-color: yellow;
 }
 .box-2{
+    height: 80px;
+    width: 80px;
     background-color: purple;
 }
 .box-3{
+    height: 80px;
+    width: 80px;
     background-color: peru;
 }
 .box-4{
+    height: 80px;
+    width: 80px;
     background-color: cadetblue;
 }

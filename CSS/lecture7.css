@@ -1,0 +1,103 @@
+.div {
+    position: absolute;
+    width: 1300px;
+    height: 700px;
+    background-color: pink;
+}
+
+.box-1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    background-color: blue;
+}
+
+.box-2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: burlywood;
+}
+
+.box-3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -30px;
+    right: 0;
+    background-color: green;
+}
+
+.box-4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.box-5 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    background-color: royalblue;
+}
+
+.box-6 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    inset: -500px;
+    margin: auto;
+    background-color: slateblue;
+}
+
+.box-7 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: black;
+}
+
+.box-8 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    margin: 50px;
+    background-color: aqua;
+}
+
+.box-9 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 110px;
+    background-color: brown;
+}
+
+.box-10 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 150px;
+    background-color: azure;
+}
