@@ -101,3 +101,402 @@
     margin: 150px;
     background-color: azure;
 }
+
+.box-11 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 190px;
+    background-color: rgb(21, 205, 205);
+}
+
+.box-12 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 230px;
+    background-color: rgb(6, 45, 28);
+}
+
+.box-13 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 270px;
+    background-color: rgb(176, 143, 8);
+}
+
+.box-14 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 310px;
+    background-color: rgb(163, 21, 21);
+}
+
+.box-15 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 350px;
+    background-color: rgb(44, 6, 141);
+}
+
+.box-16 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 390px;
+    background-color: rgb(25, 255, 190);
+}
+
+.box-17 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 430px;
+    background-color: rgb(255, 25, 217);
+}
+
+.box-18 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 470px;
+    background-color: rgb(129, 146, 126);
+}
+
+.box-19 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 510px;
+    background-color: rgb(82, 9, 26);
+}
+
+.box-20 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 50px;
+    background-color: rgb(50, 9, 121);
+}
+
+.box-21 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 100px;
+    background-color: rgb(243, 110, 8);
+}
+
+.box-22 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 150px;
+    background-color: rgb(187, 31, 104);
+}
+
+.box-23 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 200px;
+    background-color: rgb(8, 173, 243);
+}
+
+.box-24 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 350px;
+    background-color: rgb(51, 10, 111);
+}
+
+.box-25 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 400px;
+    background-color: rgb(25, 135, 149);
+}
+
+.box-26 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 400px;
+    background-color: rgb(25, 135, 149);
+}
+
+.box-27 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 450px;
+    background-color: rgb(1, 76, 21);
+}
+
+.box-28 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 500px;
+    background-color: rgb(169, 100, 134);
+}
+
+.box-29 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 550px;
+    background-color: rgb(152, 211, 34);
+}
+
+.box-30 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 50px;
+    background-color: rgb(34, 211, 131);
+}
+
+.box-31 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 100px;
+    background-color: rgb(44, 156, 200);
+}
+
+.box-32 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 150px;
+    background-color: rgb(211, 184, 34);
+}
+
+.box-33 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 200px;
+    background-color: rgb(211, 34, 96);
+}
+
+.box-34 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 250px;
+    background-color: rgb(34, 211, 87);
+}
+
+.box-35 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 300px;
+    background-color: rgb(34, 199, 211);
+}
+
+.box-36 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 350px;
+    background-color: rgb(75, 34, 211);
+}
+
+.box-37 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 400px;
+    background-color: rgb(211, 152, 34);
+}
+
+.box-38 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 450px;
+    background-color: rgb(211, 205, 34);
+}
+
+.box-39 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 500px;
+    background-color: rgb(211, 55, 34);
+}
+
+.box-40 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: 550px;
+    background-color: rgb(211, 34, 117);
+}
+
+.box-41 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(211, 34, 60);
+}
+
+.box-42 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 50px;
+    background-color: rgb(211, 34, 158);
+}
+
+.box-43 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 100px;
+    background-color: rgb(211, 34, 34);
+}
+
+.box-44 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 150px;
+    background-color: rgb(34, 37, 211);
+}
+
+.box-45 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 200px;
+    background-color: rgb(211, 175, 34);
+}
+
+.box-46 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 300px;
+    background-color: rgb(34, 167, 211);
+}
+
+.box-47 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 350px;
+    background-color: rgb(128, 34, 211);
+}
+
+.box-48 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 400px;
+    background-color: rgb(178, 211, 34);
+}
+
+.box-49 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 450px;
+    background-color: rgb(211, 170, 34);
+}
+
+.box-50 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 500px;
+    background-color: rgb(211, 119, 34);
+}
