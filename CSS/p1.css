@@ -1,4 +1,5 @@
 .col-12{
+    height: 60px;
     text-align: center;
     background-color: aqua;
     border: 5px solid white;
@@ -6,6 +7,7 @@
     font-weight: 500;
 }
 .col-6{
+    height: 60px;
     text-align: center;
     background-color: aqua;
     border: 5px solid white;
@@ -13,6 +15,7 @@
     font-weight: 500;
 }
 .col-4{
+    height: 60px;
     text-align: center;
     background-color: aqua;
     border: 5px solid white;
@@ -20,6 +23,7 @@
     font-weight: 500;
 }
 .col-8{
+    height: 60px;
     text-align: center;
     background-color: aqua;
     border: 5px solid white;
@@ -27,6 +31,7 @@
     font-weight: 500;
 }
 .col-3{
+    height: 60px;
     text-align: center;
     background-color: aqua;
     border: 5px solid white;
@@ -34,6 +39,7 @@
     font-weight: 500;
 }
 .col-2{
+    height: 60px;
     text-align: center;
     background-color: aqua;
     border: 5px solid white;
@@ -41,6 +47,7 @@
     font-weight: 500;
 }
 .col-1{
+    height: 60px;
     text-align: center;
     background-color: aqua;
     border: 5px solid white;
