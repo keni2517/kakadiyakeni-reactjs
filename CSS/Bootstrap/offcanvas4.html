@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body>
-    <div class="offcanvas offcanvas-end bg-white" tabindex="0" id="offcanvasExample"
-    aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header border-bottom bg-primary">
-        <h3 class="text-light">
-            Sidebar
-        </h3>
-    </div>
 
-</div>
+<body>
+    </div>
     <nav class="navbar navbar-expand-xl navbar-dark bg-info">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="ml-3 order-xl-last btn btn-warning" href="#"></a>
@@ -32,8 +29,9 @@
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Action</a>
@@ -50,30 +48,29 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
             </form>
-        </div>    
+        </div>
     </nav>
 
     <div class="d-flex justify-content-around my-5">
-        <div class="text-center border p-2 mx-5">
-            <a class=" d-block text-success text-decoration-none" href="#">
-                <span class="display-3"><img src="text-center.svg" alt=""></span>
-                <h6>Pull Left Canvas</h6>
-            </a>
-        </div>
-        <div class="flex-grow-1 text-center align-self-center">    	
+        <button class="border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars"></i>
+            <h6>Pull Left Cnvas</h6>
+        </button>
+        <div class="flex-grow-1 text-center align-self-center">
             <h4 class="h4">Bootstrap Sidebar Canvas</h4>
-            <p class="lead">Basic Demo</p>            
+            <p class="lead">Basic Demo</p>
         </div>
-        <div class="text-center border p-2 mx-5">
-            <a class="d-block text-primary text-decoration-none" href="#">
-                <span class="display-3"><img src="text-center.svg" alt=""></span>
-                <h6>Pull Right Canvas</h6>
-            </a>
-        </div>
+        <button class="border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars"></i>
+            <h6>Pull Right Cnvas</h6>
+        </button>
     </div>
     <div class="container">
         <p>Bootstrap version used: <span class="badge badge-pill bg-danger">4.2.1</span></p>
-        <p class="lead">This is a basic demo of Bootstrap 4 off-canvas sidebar, based on the <a href="" class="text-primary">Fellow Tuts Article</a>.</p>
+        <p class="lead">This is a basic demo of Bootstrap 4 off-canvas sidebar, based on the <a href=""
+                class="text-primary">Fellow Tuts Article</a>.</p>
         <div class="row my-5">
             <div class="col-sm-6">
                 <p><u>Features</u>:</p>
@@ -85,19 +82,88 @@
                 </ul>
             </div>
             <div class="col-sm-6">
-                <p>Click to the left arrow yellow button at the top-right corner to the navbar button in the action. Clicking to the hamburger icon will also slide in the respective off-canvas sidebar.</p>
+                <p>Click to the left arrow yellow button at the top-right corner to the navbar button in the action.
+                    Clicking to the hamburger icon will also slide in the respective off-canvas sidebar.</p>
                 <hr class="w-25">
                 <p class="text-center">
                     <a href="" class="btn btn-success" rel="nofollow">View Source</a>
                     <a href="" class="btn btn-primary">View Article</a>
                     <a href="" class="btn btn-danger">All Demos</a>
                 </p>
-            </div>        
-        </div>	
+            </div>
+        </div>
     </div>
- 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <div class="offcanvas offcanvas-end bg-white" tabindex="0" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header border-bottom bg-primary">
+            <span data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"
+                    style="color: aliceblue;"></i></span>
+            <h3 class="text-light">
+                Canvas Header
+            </h3>
+        </div>
+        <div class="offcanvas-body px-3 py-5">
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Item</th>
+                        <th scope="col">Qty.</th>
+                        <th scope="col">Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Quilt</td>
+                        <td>2</td>
+                        <td class="text-center"><a href="" class="text-decoration-none text-muted"><i
+                                    class="fa-solid fa-xmark"></i></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Shawl</td>
+                        <td>1</td>
+                        <td class="text-center"><a href="" class="text-decoration-none text-muted"><i
+                                    class="fa-solid fa-xmark"></i></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Pillow</td>
+                        <td>5</td>
+                        <td class="text-center"><a href="" class="text-decoration-none text-muted"><i
+                                    class="fa-solid fa-xmark"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="text-center"><button type="button" class="btn btn-primary">Checkout</button></p>
+
+            <div class="list-group my-5">
+                <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+            </div>
+
+            <p class="text-muted small">Subscribe to our newsletter:</p>
+
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Email" aria-label="Username"
+                    aria-describedby="addon-wrapping">
+            </div>
+
+            <p class="text-end mt-3 mb-0">
+                <button type="button" class="btn btn-outline-dark">Subscribe</button>
+            </p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
