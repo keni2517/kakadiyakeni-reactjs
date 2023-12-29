@@ -10,9 +10,9 @@
     height: $h-3;
     width: $w-3;
     border:$boder-1 solid $boder-colour;
-    margin-right: $m-3;
     margin-left: $m-4;
     margin-top: $m-2;
+    padding: $p-1;
 }
 .box-2{
     height: $h-3;
@@ -20,6 +20,7 @@
     background-color: $bg-1;
     margin-right: $m-3;
     margin-top: $m-2;
+    padding: $p-1;
 }
 .box-3{
     height: $h-3;
@@ -27,6 +28,7 @@
     border:$boder-1 solid $boder-colour;
     margin-right: $m-3;
     margin-top: $m-2;
+    padding: $p-1;
 }
 img{
     height: $h-1;
@@ -38,7 +40,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-p{
+.box-1 p{
     text-align: $text-align;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
