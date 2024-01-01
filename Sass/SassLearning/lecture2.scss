@@ -1,4 +1,4 @@
-@import 'variables';
+@import './varibles';
 
 /* Sass Nesting */
 
@@ -22,21 +22,21 @@ nav {
 /* @at-root */
 
 
-nav {
-    background-color: $bg-1;
+//nav {
+    //background-color: $bg-1;
 
-    @at-root ul {
-        list-style-type: none;
+    //@at-root ul {
+       // list-style-type: none;
 
-        @at-root li {
-            margin-right: $m-5;
+       // @at-root li {
+           // margin-right: $m-5;
 
-            @at-root a {
-                text-decoration: none;
-            }
-        }
-    }
-}
+           // @at-root a {
+                //text-decoration: none;
+            //}
+        //}
+   // }
+//}
 
 
 /* Sass @mixin */
