@@ -8,16 +8,121 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-   
+    <style>
+        .container {
+            height: 100vh;
+        }
+
+        .card {
+
+            width: 380px;
+            border: none;
+            border-radius: 15px;
+            padding: 8px;
+            background-color: #fff;
+            position: relative;
+            height: 370px;
+        }
+
+        .upper {
+
+            height: 100px;
+
+        }
+
+        .upper img {
+
+            width: 100%;
+            border-radius: 10px;
+            height: 120px;
+        }
+
+        .user {
+            position: relative;
+        }
+
+        .profile img {
+
+
+            height: 80px;
+            width: 80px;
+            margin-top: 3px;
+
+
+        }
+
+        .profile {
+
+            position: absolute;
+            top: -50px;
+            left: 38%;
+            height: 90px;
+            width: 90px;
+            border: 3px solid #fff;
+            border-radius: 50%;
+
+        }
+
+     
+    </style>
 </head>
 
-<body class="bg-dark bg-opacity-50">
-    <div class="container">
-        <div class="crad">
-            <div class="crad-title bg-light">
-                    
+<body class="bg-secondary bg-opacity-25" >
+    <div class="container d-flex justify-content-center align-items-center">
+
+        <div class="card">
+
+            <div class="upper">
+
+                <img src="./banner.png" class="img-fluid">
+
             </div>
+
+            <div class="user text-center">
+
+                <div class="profile">
+
+                    <img src="./avatar11.png" class="rounded-circle">
+
+                </div>
+
+            </div>
+
+
+            <div class="mt-5 text-center">
+
+                <h4 class="mb-0">Adela Parkson</h4>
+                <span class="text-muted d-block mb-2">Product Manager</span>
+
+
+                <div class="d-flex justify-content-between align-items-center mt-5 px-4 py-4">
+
+                    <div class="stats">
+                        <h4 class="mb-0">17</h4>
+                        <h6 class="text-muted">Posts</h6>
+
+                    </div>
+
+
+                    <div class="stats">
+                        <h4 class="mb-0">9.7k</h4>
+                        <h6 class="text-muted">Followers</h6>
+
+                    </div>
+
+
+                    <div class="stats">
+                        <h4 class="mb-0">434</h4>
+                        <h6 class="text-muted">Following</h6>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
