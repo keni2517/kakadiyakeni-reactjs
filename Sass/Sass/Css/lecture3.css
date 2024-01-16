@@ -1,0 +1,19 @@
+/*  each in method */
+.box-1 {
+  border: red;
+  height: 100px;
+  left: 10px;
+  background-color: black;
+}
+
+.box-2 {
+  border: purple;
+  height: 200px;
+  left: 20px;
+}
+
+.box-3 {
+  border: red;
+  height: 100px;
+  left: 10px;
+}/*# sourceMappingURL=lecture3.css.map */
