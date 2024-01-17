@@ -1,1 +1,16 @@
-/*# sourceMappingURL=ss1.css.map */
+.logo {
+  margin: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  display: flex;
+}/*# sourceMappingURL=ss1.css.map */

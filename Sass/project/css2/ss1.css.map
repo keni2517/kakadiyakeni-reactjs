@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"ss1.css"}
+{"version":3,"sources":["../ss1.scss","../../SassLearning/varibals/_utilties.scss","ss1.css","../../SassLearning/varibals/_flex.scss"],"names":[],"mappings":"AAEA;EACI,YCDC;ACAL;;AFIA;EACI,aGPK;EHQL,6BGPY;ADMhB;;AFGA;EACI,gBAAA;AEAJ;;AFGA;EACI,aGfK;ADeT","file":"ss1.css"}

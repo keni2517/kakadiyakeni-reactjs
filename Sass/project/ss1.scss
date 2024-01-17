@@ -1,0 +1,17 @@
+@import '../SassLearning/varibles';
+
+.logo{
+    margin: $m-3;
+}
+
+ul{
+    display: $display;
+    justify-content: $justfy-content;
+}
+li{
+    list-style: none;
+}
+
+.main{
+    display: $display;
+}
