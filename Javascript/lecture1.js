@@ -1,8 +1,8 @@
 {
     var number1 = 40;
     var number2 = 20;
-    var Total = number1 - number2;
-    console.log(number2);
+    var Total = number1 + number2;
+    console.log(Total);
 }
 
 {
