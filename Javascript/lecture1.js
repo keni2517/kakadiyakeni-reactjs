@@ -35,9 +35,11 @@
     var four  = 'one "two"'
     console.log(four);
 
-    var five = `''one' "two"`
+    var five = `'one' "two"`
     console.log(five);
 
     var six = `${one} + ${two}`
     console.log(six);
+
+    console.log(one);
 }
