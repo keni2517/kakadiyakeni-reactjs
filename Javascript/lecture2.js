@@ -1,19 +1,21 @@
 var z = 20;
 {
     var x = 20;
+    console.log(z);
 }
 {
     var y = 40;
 }
 
 
-console.log(y)
-console.log(x);
-
 {
     let x = "hello"
     x = 'javascript'
     console.log(x);
+}
+{
+    const x=80;
+    console.log
 }
 
 { let x = 'sun' }
