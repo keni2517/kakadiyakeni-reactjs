@@ -1,6 +1,6 @@
 // result
 
-let marks=50;
+let marks=101;
     if(marks<0 || marks>100)
     {
         console.log("Wrong Entry");
