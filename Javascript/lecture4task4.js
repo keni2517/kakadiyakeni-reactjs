@@ -1,5 +1,5 @@
 // result
-
+{
 let marks=101;
     if(marks<0 || marks>100)
     {
@@ -29,3 +29,4 @@ let marks=101;
     {
         console.log("Grade A+");
     }
+}
