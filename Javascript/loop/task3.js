@@ -2,7 +2,7 @@
 
 
 {
-    let j = 5;
+    let j = 6;
     let i = 1;
 
     while (i <= 10) {
