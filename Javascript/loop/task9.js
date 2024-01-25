@@ -19,9 +19,9 @@
     while(i<=5)
     {
         j=1;
-        while(j<=3)
+        while(j<=i)
         {
-            document.write(i);
+            document.write("*");
             j++;
         }
         document.write("<br>");
