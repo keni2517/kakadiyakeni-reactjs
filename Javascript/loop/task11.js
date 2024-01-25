@@ -4,7 +4,7 @@
 {
     let Number = 6;
 
-    while (Number > 0) {
+    while (Number < 10) {
         if (Number % 2 !== 0) {
             console.log(`First odd number in the sequence: ${Number}`);
             break;
