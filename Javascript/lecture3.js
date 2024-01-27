@@ -91,7 +91,7 @@
 
 {
     var x = 5;
-    document.write(x === "5");
+    //document.write(x === "5");
 }
 
 //9
@@ -120,6 +120,9 @@
 }
 
 
-
-
-
+//12
+{
+    let x  = 5;
+    let y = 4;
+    console.log(x**y);
+}
