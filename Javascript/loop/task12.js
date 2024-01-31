@@ -1,13 +1,16 @@
 // Check if a number is prime using a for loop and break statement
 
 {
-    let i,n = 5;
+    let i,n = 15;
     for (i = 2; i <= n; i++) {
 
         if (n%i == 0) {
+            console.log(`${i} number: ${n} is not prime`);
             break;
         }
-
-        console.log(i);
+    }
+    if(i == n) 
+    {
+        console.log(`number: ${n} is prime`);
     }
 }
