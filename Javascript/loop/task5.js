@@ -40,7 +40,7 @@
 //Generate the Fibonacci sequence using a for loop
 
 {
-    let i = 1;
+    let i;
     let a = 0;
     let n = 5;
     let b = 1;
