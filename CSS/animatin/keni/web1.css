@@ -1,0 +1,27 @@
+
+.main-1{
+        position: absolute;
+        width: 1660px;
+        height: 300px;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: black;
+ }
+ h1{
+    position: absolute;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    font-size: 48px;
+    top: 50px;
+    left: 550px;
+    text-align: center;
+ }
+ p{
+    position: absolute;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    top: 130px;
+    left: 600px;
+    text-align: center;
+ }

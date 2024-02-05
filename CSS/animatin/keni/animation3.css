@@ -1,0 +1,11 @@
+button{
+    margin: 100PX;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: rgb(7, 75, 97);
+    transition: all 0.2s ease;
+}
+button:active{
+    transform: scale(2);
+}
