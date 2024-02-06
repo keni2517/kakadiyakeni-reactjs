@@ -13,10 +13,6 @@
     background-repeat: no-repeat; 
     color:white; 
 } 
-.card:hover{ 
-    background-color:blue ; 
-} 
- 
 .footer{ 
     margin-top: 70px; 
     display: flex; 
