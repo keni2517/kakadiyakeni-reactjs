@@ -2,19 +2,13 @@
 
 
 {
-    let i , n=121 , reversedNumber = 0;
-    let j = n;
+    let i , n=123457 , reversedNumber = 0;
     while(n != 0) 
     {
         i = n % 10;
         reversedNumber = reversedNumber * 10 + i ;
-        n /= 10;
+        n=parseInt(n/10);
     }
-    if(n == reversedNumber)
-        console.log(reversedNumber);
-    else
-    {
-        console.log("not a number");
-    }
+    console.log(reversedNumber);
 }
 
