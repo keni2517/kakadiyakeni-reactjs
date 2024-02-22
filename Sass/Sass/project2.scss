@@ -1,0 +1,64 @@
+@import'variable/variable';
+ 
+header{
+    nav{
+        display: $flex;
+        justify-content: $justify-c-2;
+        padding: $p-2;
+        
+        ul{
+            display: $flex;
+            justify-content: $justify-c-2; 
+            gap: 30px;
+            list-style: none;
+        }
+        .button{
+            background-color: $bg-5;
+            button{
+                background-color: $bg-5;
+                border: 0;
+            }
+        }
+    }
+    section{
+        position: relative;
+        .text{
+            position: absolute;
+            top:50px;
+            left:600px;
+            color: $c-1;
+        }
+    }
+     
+}
+section{
+    // background-image: url('../Project/project-image/spaeker-background.jpg');
+    // height: $h-2;
+    
+    .image{
+        background-color: white;
+        display: $flex;
+        
+        height: 300px;
+        margin-left: 200px;
+        
+    
+        .image1 img{
+            border-radius: 100%;
+            
+            
+        }
+         .text button:nth-child(4){
+            background-color:$bg-5;
+            color: $c-1;
+        }
+    }
+    .text span{
+        color:$c-3;
+    }
+    .text p:nth-child(3){
+        color:$c-4;
+
+    }
+
+}

@@ -1,0 +1,36 @@
+@import '../veraible';
+
+
+.container{
+    height:$h-1;
+    width:$w-1;
+    background-color: $bg-2;
+    margin: $m-1;
+    display: $flex;
+    justify-content:$justify-c-1;
+}
+#boxx{
+    height: $h-2;
+    width:$w-2;
+    margin: $m-1;
+    text-align: $text-center;
+    border: $border-1;
+    padding:$p-1;
+}
+button{
+    background-color:$bg-3;
+    color: $c-1;
+    font-size: $font-s-1;
+    margin-top: $mt-1;
+    border-radius: $border-r-1;
+    width:$w-3;
+    height: $h-3;
+}
+.box-1{
+    background-color:$bg-1;
+    color: $c-1;
+}
+.box-1 button{
+    background-color: $bg-2;
+    color:$c-3;
+}

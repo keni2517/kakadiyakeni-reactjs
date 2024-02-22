@@ -1,0 +1,41 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+header nav .button {
+  background-color: orange;
+}
+header nav .button button {
+  background-color: orange;
+  border: 0;
+}
+header section {
+  position: relative;
+}
+header section .text {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  color: white;
+}
+
+.form {
+  text-align: center;
+}
+.form h2 span {
+  color: red;
+}
+.form p {
+  color: #a09e9e;
+}
+.form button {
+  background-color: orange;
+  color: white;
+}/*# sourceMappingURL=project3.css.map */

@@ -1,0 +1,10 @@
+nav {
+  background-color: crimson;
+}
+nav ul {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=nesting.css.map */

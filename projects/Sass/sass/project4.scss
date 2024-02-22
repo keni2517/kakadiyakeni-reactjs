@@ -1,0 +1,47 @@
+@import'variable/variable';
+
+header{
+    nav{
+        display: $flex;
+        justify-content: $justify-c-2;
+        padding: $p-2;
+        ul{
+            display: $flex;
+            justify-content: $justify-c-2; 
+            gap: 30px;
+            list-style: none;
+        }
+        .button{
+            background-color: $bg-5;
+            button{
+                background-color: $bg-5;
+                border: 0;
+            }
+        }
+    }
+    section{
+        position: relative;
+        .text{
+            position: absolute;
+            top:50px;
+            left:600px;
+            color: $c-1;
+        }
+    }
+     
+}
+section{
+    text-align: center;
+    span{
+        color:$c-3;
+    }
+    p{
+        color:$c-4;
+    }
+   
+}
+.main{
+    display:$flex;
+    margin-left:270px;
+    
+}
